@@ -10,6 +10,7 @@ const Items = () => {
     setSearch(val)
   }
   return (<>
+  <div>
     <div className="menu-tabs container">
       <Router>
         <Routes><Route path='/' component={<App />} /> </Routes>
@@ -20,6 +21,7 @@ const Items = () => {
           <Link to="/food">  <button className='btn btn-primary' onClick={() => handleSearch("food")}>Food</button></Link>
           <Link to="/beach"> <button className='btn btn-primary' onClick={() => handleSearch("beach")}>Beaches</button></Link>
         </div></Router>
+    </div>
     </div>
   </>
   )

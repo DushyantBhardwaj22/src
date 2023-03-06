@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios"
 import { Catgcontxt } from './ImgContext'
 const Images=()=>{
     const { image } = React.useContext(Catgcontxt); 

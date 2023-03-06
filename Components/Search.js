@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState, useContext } from 'react'
 import { Catgcontxt } from './ImgContext'
 import axios from "axios";
+
 const SearchImages = async (searchTerm) => {
 
     const response = await axios.get(`http://pixabay.com/api/?key=33928911-3e39c91ccac94d58061a8e502&q=${searchTerm}&image_type=photo&pretty=true`)

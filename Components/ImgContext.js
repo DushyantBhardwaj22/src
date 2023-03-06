@@ -1,2 +1,2 @@
 import { createContext } from "react";
-export const Catgcontxt = createContext({})
+export const Catgcontxt = createContext({});
